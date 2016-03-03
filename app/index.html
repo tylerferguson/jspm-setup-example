@@ -1,0 +1,12 @@
+<!-- app/index.html -->
+<head>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('app.js');
+    </script>
+</head>
+
+<body ng-app="app">
+    <div ng-controller="MainController">{{hello}}</div>
+</body>
