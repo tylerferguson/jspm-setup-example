@@ -2,7 +2,7 @@
 
 import angular from 'angular';
 
+import MainController from './main.controller.js';
+
 angular.module('app', [])
-    .controller('MainController', ($scope) => {
-        $scope.hello = 'Hello World';
-    });
+    .controller('MainController', MainController);

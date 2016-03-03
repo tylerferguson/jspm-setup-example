@@ -1,2 +1,4 @@
 node_modules/
 app/jspm_packages/
+app/app.bundle.js
+app/app.bundle.js.map
